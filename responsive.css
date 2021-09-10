@@ -1,0 +1,82 @@
+/* for extra large screen */
+@media (max-width: 1400px){
+
+  }
+
+
+
+/* for excel large screen */
+@media (min-width: 1200px){
+}
+
+
+
+/* for large screen */
+@media (min-width: 992px){
+
+}
+
+
+
+/* for medium screen */
+@media (min-width: 768px){
+
+}
+
+
+
+/* for small screen */
+@media (mmax-width: 576px){
+  #calendar{
+    margin-top: 5%;
+  }
+
+  #date_heading{
+    font-size: 3rem;
+}
+
+#dob_div{
+  margin: 25px 0px;
+}
+
+#form_para{
+  font-size: 3rem;
+}
+
+#form_div{
+  margin-bottom: 10%;
+}
+
+#r1c2{
+  padding: 0px 50px;
+}
+}
+
+
+
+/* for extra screen */
+@media (max-width: 576px){
+  #calendar{
+    margin-top: 5%;
+  }
+
+  #date_heading{
+    font-size: 3rem;
+  }
+  
+  #dob_div{
+    margin: 25px 0px;
+  }
+
+  #form_para{
+    font-size: 3rem;
+}
+
+#form_div{
+  margin-bottom: 10%;
+}
+
+#r1c2{
+  padding: 0px 50px;
+}
+}
