@@ -56,6 +56,8 @@
 
 /* for extra screen */
 @media (max-width: 576px){
+
+/* INDEX.HTML PAGE */
   #calendar{
     margin-top: 5%;
   }
@@ -76,21 +78,70 @@
   margin-bottom: 10%;
 }
 
-#r1c2{
-  padding: 0px 50px;
-}
-
 #date_heading{
   font-size: 2rem;
 }
 
 #r1c2{
-  padding-left: 0px;
-  padding: 0px;
+  padding: 5%;
 }
 
 #from_span{
   padding-top: 5px;
+}
+
+#dob_div{
+  margin: 20px 0px;
+}
+
+/* PAGE_2.HTML PAGE */
+#text1{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+#text2{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+#text3{
+  font-size: 2rem;
+  animation: text_2 5s 1;
+}
+
+@keyframes text {
+  0%{
+    opacity: .1;
+  }
+  30%{
+    letter-spacing: 15px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+
+@keyframes text_2 {
+  0%{
+    opacity: .1;
+  }
+  30%{
+    letter-spacing: 17px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+
+#form2_para{
+  font-size: 2rem;
+}
+
+#last{
+  font-size: 2rem;
 }
 
 }
