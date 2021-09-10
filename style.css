@@ -1,11 +1,11 @@
 #bg_1{
-    background-image: url('/copy_download.png');
+    background-image: url('copy_download.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #bg_2{
-    background-image: url('/wish_bg.jpg');
+    background-image: url('wish_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
