@@ -79,4 +79,18 @@
 #r1c2{
   padding: 0px 50px;
 }
+
+#date_heading{
+  font-size: 2rem;
+}
+
+#r1c2{
+  padding-left: 0px;
+  padding: 0px;
+}
+
+#from_span{
+  padding-top: 5px;
+}
+
 }
