@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="file2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="responsive.css">
+
+  <title>PAGE_4</title>
+
+  <style>
+    #delete_btn {
+      background: transparent;
+      border: none;
+    }
+  </style>
+
+  <script>
+    function myFunction() {
+      var Password = document.getElementById("inputpassword").value;
+
+      if (Password == "pakhi") {
+        window.location.href = "page_4(1).html"
+        // window.location.href = "page_4(1).html";
+      }
+      else {
+        alert("Wrong Password");
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <div class="container-fluid" id="bg_1">
+    <div class="row">
+      <p id="text5">HAPPY BIRTHDAY KITTU</p>
+    </div>
+
+    <div class="row text-center">
+      <h2 style="font-family: 'Merienda', cursive;">Enter Password</h2>
+    </div>
+
+    <div class="row justify-content-center mx-0" id="pass_row">
+      <div class="col-md-8 col-sm-10">
+        <form>
+          <center>
+            <div class="mb-3 py-3" id="pass_div" style="box-shadow: 0 15px 25px rgba(0,0,0,0.5);">
+              <img id="profile_pic" src="_heart_eyes__heart_eyes__heart_eyes__heart_eyes_ ( 937 X 750 ).jpg"
+                class="img-fluid mb-3">
+              <input type="password" class="form-control" id="inputpassword" aria-describedby="emailHelp">
+              <button style="margin-top: 16px;" id="enter_btn" type="button" class="btn btn-danger btn-md"
+                onclick="myFunction()">ENTER</button>
+            </div>
+          </center>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+
+          <div class="container p-0">
+            <div class="row justify-content-center">
+              <div class="col-md-4 p-0 col-12">
+  
+                <div class="wrapper ms-md-4 mb-5 mt-3">
+                  <div class="top-bar justify-content-center">
+                      <p id="voice" class="m-0">VOICE OF HEART</p>
+                  </div>
+                  <div class="img-area">
+                      <img src="" alt="">
+                  </div>
+                  <div class="song-details">
+                      <p class="name"></p>
+                      <p class="artist"></p>
+                  </div>
+                  <div class="progress-area">
+                      <div class="progress-bar">
+                          <audio id="main-audio" src=""></audio>
+                      </div>
+                      <div class="song-timer">
+                          <span class="current-time">0:00</span>
+                          <span class="max-duration">0:00</span>
+                      </div>
+                  </div>
+                  <div class="controls">
+                      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                      <i id="prev" class="material-icons">skip_previous</i>
+                      <div class="play-pause">
+                          <i class="material-icons play">play_arrow</i>
+                      </div>
+                      <i id="next" class="material-icons">skip_next</i>
+                      <i id="more-music" class="material-icons">queue_music</i>
+                  </div>
+                  <div class="music-list">
+                      <div class="header">
+                          <div class="row">
+                              <i class="list material-icons">queue_music</i>
+                              <span>Music list</span>
+                          </div>
+                          <i id="close" class="material-icons">close</i>
+                      </div>
+                      <ul>
+                          <!-- here li list are coming from js -->
+                      </ul>
+                  </div>
+              </div>
+  
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <!-- next botton -->
+      <div class="col-12 text-end fixed-bottom">
+        <a href="page_5.html"><i class="fa fa-angle-double-right fa-3x"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="file3.js"></script>
+  <script src="file4.js"></script>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+
+  <script>
+    function getAndUpdate() {
+      console.log("Updating List...");
+      tit = document.getElementById('title').value;
+      desc = document.getElementById('description').value;
+      if (localStorage.getItem('itemsJson') == null) {
+        itemJsonArray = [];
+        itemJsonArray.push([tit, desc]);
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+      }
+      else {
+        itemJsonArrayStr = localStorage.getItem('itemsJson')
+        itemJsonArray = JSON.parse(itemJsonArrayStr);
+        itemJsonArray.push([tit, desc]);
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+
+      }
+      update();
+      tit = document.getElementById('title').value = "";
+      desc = document.getElementById('description').value = "";
+    }
+
+    function update() {
+      if (localStorage.getItem('itemsJson') == null) {
+        itemJsonArray = [];
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+      }
+      else {
+        itemJsonArrayStr = localStorage.getItem('itemsJson')
+        itemJsonArray = JSON.parse(itemJsonArrayStr);
+      }
+      // Populate the table
+      // let comment_container = document.getElementById("comment_container");
+      let str = "";
+      itemJsonArray.forEach((element, index) => {
+        //   str += `
+        //   <div class="col-md-10 col-9 bg-warning"><p class="m-0" id="type_comment">${element[0]}</p>
+        //     <p class="m-0" id="type_comment">${element[1]}</p>
+        // </div>
+        // <div class="col-2 text-center">
+        //   <button id="delete_btn"  onclick="deleted(${index})"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></button>
+        // </div>
+        //   `; 
+        let added = document.getElementById("added");
+        console.log(added);
+
+        str += `
+       
+       <div  class="row ,mb-1">
+            <div class="col-2 p-0">
+              <center><img src="/hand_finger-removebg-preview.png" class="img-fluid" style="width: 40%;"></center>
+            </div>
+
+            <div class="col-10 p-0">
+
+              <div class="container-fluid">
+                <div class="row" >
+                  <div class="col-6">
+                    <p class="m-0" id="type_comment_title">${element[0]},</p>
+                  </div>
+                  <div class="col-6" style="text-align: end;">
+                    <button id="delete_btn"  onclick="deleted(${index})"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <p id="type_comment" class="m-0">${element[1]}</p>
+                  </div>
+                </div>
+
+                <div class="row mt-2">
+                  <div class="col-12">
+                    <p id="duggu" class="m-0">
+                      <i class="fa fa-heart" id="from_heart"></i>
+                      DUGGU
+                      <i class="fa fa-heart" id="from_heart"></i>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            </div>
+         
+              `;
+
+      });
+
+      added.innerHTML = str;
+
+    }
+
+    add = document.getElementById("add");
+    add.addEventListener("click", getAndUpdate);
+    update();
+    function deleted(itemIndex) {
+      console.log("Delete", itemIndex);
+      itemJsonArrayStr = localStorage.getItem('itemsJson')
+      itemJsonArray = JSON.parse(itemJsonArrayStr);
+      // Delete itemIndex element from the array
+      itemJsonArray.splice(itemIndex, 1);
+      localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray));
+      update();
+    }
+    function clearStorage() {
+      if (confirm("Do you areally want to clear?")) {
+        console.log('Clearing the storage')
+        localStorage.clear();
+        update()
+      }
+    }
+  </script>
+</body>
+
+</html>
