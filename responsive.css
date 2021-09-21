@@ -175,7 +175,6 @@
 .wrapper{
   width: 350px;
   margin-left: 10px;
-  margin-right: 10px;
 }
 
 #voice{
@@ -194,10 +193,7 @@
   border-bottom-left-radius: .5rem;
   border-bottom-right-radius: .5rem;
 }
-  
-  #wrp{
-    margin: -1px;
-  }
+ 
 
 
 /* PAGE_4(1).HTML PAGE */
