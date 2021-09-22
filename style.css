@@ -394,7 +394,8 @@
 }
 
 .more{
-  width: 102px;
+      width: 130px;
+    padding: 0px 26px;
   position: relative;
   display: inline-block;
   color: white;
