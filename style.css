@@ -394,8 +394,7 @@
 }
 
 .more{
-      width: 130px;
-    padding: 0px 26px;
+  width: 130px;
   position: relative;
   display: inline-block;
   color: white;
@@ -412,11 +411,11 @@
 }
 
 .more::before{
-  content: 'See More...';
+  content: 'Show More...';
 }
 
 .main_comment.active .more::before{
-  content: 'See Less...';
+  content: 'Show Less...';
 }
 
 #neu_box1{
