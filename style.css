@@ -412,10 +412,12 @@
 
 .more::before{
   content: 'Show More...';
+    padding: 0px 6px;
 }
 
 .main_comment.active .more::before{
   content: 'Show Less...';
+    padding: 0px 6px;
 }
 
 #neu_box1{
