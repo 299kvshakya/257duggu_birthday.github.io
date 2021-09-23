@@ -82,6 +82,18 @@ let allMusic = [
       img: "img12",
       src: "song 12 O Sajnaa"
     },
+    {
+      name: "Nit Khair Manga",
+      artist: "BEST FRIEND",
+      img: "img13",
+      src: "song 13 Nit Khair Manga Song"
+    },
+    {
+      name: "Sanseinn",
+      artist: "BEST FRIEND",
+      img: "img14",
+      src: "song 14 Sanseinn"
+    },
     // like this paste it and remember to give comma after ending of this bracket }
     // {
     //   name: "Here is the music name",
