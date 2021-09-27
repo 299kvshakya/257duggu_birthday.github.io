@@ -94,6 +94,18 @@ let allMusic = [
       img: "img14",
       src: "song 14 Sanseinn"
     },
+    {
+      name: "Kabhii Tumhhe",
+      artist: "BEST FRIEND",
+      img: "img17",
+      src: "song 15 Kabhii Tumhhe"
+    },
+    {
+      name: "Taaron Ke Shehar",
+      artist: "BEST FRIEND",
+      img: "img16",
+      src: "song 16 Taaron Ke Shehar"
+    },
     // like this paste it and remember to give comma after ending of this bracket }
     // {
     //   name: "Here is the music name",
