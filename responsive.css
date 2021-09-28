@@ -1,0 +1,293 @@
+/* for extra large screen */
+@media (max-width: 1400px){
+
+  }
+
+
+
+/* for excel large screen */
+@media (min-width: 1200px){
+}
+
+
+
+/* for large screen */
+@media (min-width: 992px){
+
+}
+
+
+
+/* for medium screen */
+@media (min-width: 768px){
+
+}
+
+
+
+/* for small screen */
+@media (mmax-width: 576px){
+  #calendar{
+    margin-top: 5%;
+  }
+
+  #date_heading{
+    font-size: 3rem;
+}
+
+#dob_div{
+  margin: 25px 0px;
+}
+
+#form_para{
+  font-size: 3rem;
+}
+
+#form_div{
+  margin-bottom: 10%;
+}
+
+#r1c2{
+  padding: 0px 50px;
+}
+}
+
+
+
+/* for extra screen */
+@media (max-width: 576px){
+
+/* INDEX.HTML PAGE */
+  #calendar{
+    margin-top: 5%;
+  }
+
+  #date_heading{
+    font-size: 3rem;
+  }
+  
+  #dob_div{
+    margin: 25px 0px;
+  }
+
+  #form_para{
+    font-size: 3rem;
+}
+
+#form_div{
+  margin-bottom: 10%;
+}
+
+#date_heading{
+  font-size: 2rem;
+}
+
+#r1c2{
+  padding: 5%;
+}
+
+#from_span{
+  padding-top: 5px;
+}
+
+#dob_div{
+  margin: 20px 0px;
+}
+
+/* PAGE_2.HTML PAGE */
+#text1{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  animation: text_2 5s 1;
+}
+
+#text2{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  animation: text_2 5s 1;
+}
+
+#text3{
+  font-size: 2rem;
+  animation: text_3 5s 1;
+}
+
+@keyframes text_2 {
+  0%{
+    opacity: .1;
+  }
+  30%{
+    letter-spacing: 15px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+
+@keyframes text_3 {
+  0%{
+    opacity: .1;
+  }
+  30%{
+    letter-spacing: 17px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+
+#form2_div{
+  width: 95%;
+}
+
+#form2_para{
+  font-size: 2rem;
+}
+
+#last{
+  font-size: 2rem;
+}
+
+/* PAGE_3.HTML PAGE */
+
+#main_heading{
+  font-size: 43px;
+  letter-spacing: 3px;
+}
+
+/* PAGE_4.HTML PAGE */
+
+#pass_row{
+  margin: 0px 0px;
+}
+
+#text5{
+  font-size: 3rem;
+}
+
+#profile_pic{
+  width: 45px;
+  height: 45px;
+}
+
+#inputpassword{
+  width: 70%;
+}
+
+.wrapper{
+  width: 350px;
+}
+
+#voice{
+  font-size: 30px;
+}
+
+
+/* PAGE_4.HTML PAGE */
+
+#card_img{
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+#card_para{
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+
+/* PAGE_4(1).HTML PAGE */
+#upper{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+#lower{
+  font-size: 2rem;
+}
+
+@keyframes textdown{
+  0%{
+    color: #1c1c31;
+    margin-bottom: -50px;
+  }
+  30%{
+    letter-spacing: 8px;
+    margin-bottom: -50px;
+  }
+  85%{
+    letter-spacing: 4px;
+    margin-bottom: -50px;
+  }
+}
+
+#img1 {
+  width: 70%;
+}
+
+#img2 {
+  width: 100%;
+}
+
+#img3 {
+  width: 100%;
+}
+
+#for_top_m{
+  margin-top: 2rem;
+}
+
+#content {
+  width: 95%;
+}
+
+/* PAGE_5.HTML PAGE */
+#love_text{
+  font-size: 2rem;
+
+}
+
+#animated_text p::after{
+  content: 'YOU & ME';
+  animation: text 10s infinite;
+}
+
+@keyframes text{
+  50%{
+    content: 'FOREVER';
+  }
+  51%{
+    content: 'B2GETHER';
+  }
+}
+
+#animated_text p{
+    font-size: 40px;
+}
+
+#card_para{
+  font-size: 2rem;
+}
+
+
+/* PAGE_6 PAGE */
+.specify{
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 5px;
+ }
+
+ #voice_text{
+    font-size: 29px;
+ }
+
+ /* PAGE_7 PAGE */
+
+ #img_card1{
+   width: 100%;
+ }
+
+}
